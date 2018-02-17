@@ -109,6 +109,33 @@ section {
   color: white;
 }
 
+  header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: url("../images/hero.png")
+  }
+
+  header.masthead .header-content {
+    margin-bottom: 100px;
+  }
+
+  header.masthead .header-content h1 {
+    font-size: 30px;
+  }
+
+  header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header.masthead .device-container .screen img {
+    border-radius: 3px;
+  }
+
 .container-fluid.medicine h2 {
   color: 	#091C84;
   font-size: 40px;
@@ -334,6 +361,31 @@ footer {
   }
 }
 
+@media (max-width: 425px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: fade(white, 70%);
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    border-color: rgba(34, 34, 34, 0.1);
+    background-color: white;
+  }
+
+
 header.masthead {
   position: relative;
   width: 100%;
@@ -345,6 +397,7 @@ header.masthead {
 
 header.masthead .header-content {
   margin-bottom: 100px;
+  text-align: center;
 }
 
 header.masthead .header-content h1 {
@@ -361,7 +414,6 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-@media (max-width: 425px) {
   .form-wrapper {
     text-align: center;
     width:300px;
@@ -416,6 +468,34 @@ header.masthead .device-container .screen img {
     border-color: rgba(34, 34, 34, 0.1);
     background-color: white;
   }
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  background: url("../images/hero.png")
+}
+
+header.masthead .header-content {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header.masthead .header-content h1 {
+  font-size: 30px;
+}
+
+header.masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.masthead .device-container .screen img {
+  border-radius: 3px;
+}
 
   .media-card {
     margin-top: 20px;
@@ -483,6 +563,58 @@ header.masthead .device-container .screen img {
 }
 
 @media (max-width: 375px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: fade(white, 70%);
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    border-color: rgba(34, 34, 34, 0.1);
+    background-color: white;
+  }
+
+
+  header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: url("../images/hero.png")
+  }
+
+  header.masthead .header-content {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  header.masthead .header-content h1 {
+    font-size: 30px;
+  }
+
+  header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  header.masthead .device-container .screen img {
+    border-radius: 3px;
+  }
+
   .media-card {
     margin-top: 30px;
     border: 1px solid white;
