@@ -117,7 +117,7 @@ section {
 }
 
 .media-card {
-  margin: 20px;
+  margin-top: 20px;
   height: 150px;
   border: 1px solid white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -219,7 +219,7 @@ section {
 
 .form-wrapper {
   text-align: center;
-  width: 100%;
+  width: 600px;
   padding: 15px;
   display: block; 
   margin: 0 auto;
@@ -227,7 +227,7 @@ section {
 
 .form-wrapper input {
   padding: 10px 40px;
-  margin-left:60px;
+  width:100%;
   float: left;   
   border: 0;
   background: white;
@@ -345,7 +345,6 @@ header.masthead {
 
 header.masthead .header-content {
   margin-bottom: 100px;
-  text-align: center;
 }
 
 header.masthead .header-content h1 {
@@ -362,28 +361,38 @@ header.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 1000px;
-    padding-top: 0;
-    padding-bottom: 0;
+@media (max-width: 425px) {
+  .form-wrapper {
+    text-align: center;
+    width:300px;
+    padding: 15px;
+    display: block; 
+    margin: 0 auto;
   }
-  header.masthead .header-content {
-    margin-bottom: 0;
-    text-align: left;
+  
+  .form-wrapper input {
+    padding: 5px 30px;
+    width:100%;
+    float: left;   
+    border: 0;
+    background: white;
+    font-size:10px;
   }
-  header.masthead .header-content h1 {
-    font-size: 50px;
-  }
-  header.masthead .device-container {
-    max-width: 325px;
-  }
+
+  .form-wrapper button {
+    overflow: visible;
+    position: relative;
+    top: -24.5px;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to right, #0e337c , #2874A5); 
+    padding: 5px 20px;
+    font-size: 10px;
+  } 
 }
-
-
-
-
 @media (max-width: 320px) {
   #mainNav {
     border-color: transparent;
@@ -409,7 +418,7 @@ header.masthead .device-container .screen img {
   }
 
   .media-card {
-    margin: 20px;
+    margin-top: 20px;
     width: 200px;
     border: 1px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -440,11 +449,42 @@ header.masthead .device-container .screen img {
      margin-bottom: 60px;
      margin-left: 5px;
    }
+
+   .form-wrapper {
+    text-align: center;
+    width: 300px;
+    padding: 15px;
+    display: block; 
+    margin: 0 auto;
+  }
+  
+  .form-wrapper input {
+    padding: 5px 30px;
+    width:100%;
+    float: left;   
+    border: 0;
+    background: white;
+    font-size:10px;
+  }
+
+  .form-wrapper button {
+    overflow: visible;
+    position: relative;
+    top: -24.5px;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to right, #0e337c , #2874A5); 
+    padding: 5px 20px;
+    font-size: 10px;
+  } 
 }
 
 @media (max-width: 375px) {
   .media-card {
-    margin: 30px;
+    margin-top: 30px;
     border: 1px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align:center;
