@@ -633,7 +633,7 @@ kind: StatefulSet
 metadata:
   labels:
     app: redis-ha-ha
-    release: cloudserver
+    release: cloudserver-hh
   name: cloudserver-redis-ha-server
 spec:
   podManagementPolicy: OrderedReady
