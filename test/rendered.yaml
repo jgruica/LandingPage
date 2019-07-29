@@ -8,7 +8,7 @@ data:
 kind: ConfigMap
 metadata:
   labels:
-    app: bitcoind
+    app: bitcoind1
     release: bitcoind12
   name: bitcoind
 ---
