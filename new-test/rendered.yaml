@@ -632,7 +632,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   labels:
-    app: redis-ha
+    app: redis-ha-ha
     release: cloudserver
   name: cloudserver-redis-ha-server
 spec:
