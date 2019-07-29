@@ -632,8 +632,8 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   labels:
-    app: redis-ha
-    release: cloudserver
+    app: redis-ha-ha
+    release: cloudserver-hh
   name: cloudserver-redis-ha-server
 spec:
   podManagementPolicy: OrderedReady
