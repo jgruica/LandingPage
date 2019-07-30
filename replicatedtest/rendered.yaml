@@ -390,7 +390,7 @@ metadata:
   labels:
     app: elasticsearch-1
     component: master
-    release: elasticsearch-1
+    release: elasticsearch
   name: elasticsearch-master
 spec:
   podManagementPolicy: OrderedReady
