@@ -388,9 +388,9 @@ apiVersion: apps/v1beta1
 kind: StatefulSet
 metadata:
   labels:
-    app: elasticsearch
+    app: elasticsearch-1
     component: master
-    release: elasticsearch
+    release: elasticsearch-1
   name: elasticsearch-master
 spec:
   podManagementPolicy: OrderedReady
