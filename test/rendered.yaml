@@ -3980,6 +3980,8 @@ spec:
         type: timestamp without time zone
       - name: commit_sha
         type: text
+      - name: last_synced_at
+        type: timestamp without time zone
       primaryKey: []
 ---
 apiVersion: schemas.schemahero.io/v1alpha2
