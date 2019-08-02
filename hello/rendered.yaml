@@ -3982,6 +3982,9 @@ spec:
         type: text
       - name: last_synced_at
         type: timestamp without time zone
+      - default: "false"
+        name: is_404
+        type: boolean
       primaryKey: []
 ---
 apiVersion: schemas.schemahero.io/v1alpha2
