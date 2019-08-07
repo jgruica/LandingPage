@@ -1634,7 +1634,7 @@ spec:
       containers:
       - args:
         - /scripts/start-ship-cluster-ui.sh
-        image: registry.replicated.com/ship-enterprise/ship-cluster-ui:c7ba6a7
+        image: registry.replicated.com/ship-enterprise/ship-cluster-ui:4fd22dc
         imagePullPolicy: IfNotPresent
         name: ship-cluster-ui
         ports:
